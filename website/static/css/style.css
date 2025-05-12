@@ -1,0 +1,57 @@
+/* Estilo do "selo" que envolve o logo */
+.logo-seal {
+  background-color: transparent; /* Fundo transparente para destacar apenas o contorno */
+  padding: 8px 16px; /* Espaçamento interno reduzido para não ocupar muito espaço */
+  border: 2px solid #0d6efd; /* Borda azul padrão do Bootstrap */
+  border-radius: 30px; /* Bordas arredondadas para dar um visual moderno tipo "selo" */
+  display: inline-block; /* Ajusta o tamanho do contêiner ao conteúdo */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para dar leve profundidade */
+  margin-bottom: 8px; /* ajuste fino — teste com 2px a 5px */
+  color: #0d6efd !important; /* Cor azul do texto, forçada com !important para garantir prioridade */
+  font-weight: bold; /* Deixa o texto em negrito para destacar */
+  text-transform: uppercase; /* Transforma todas as letras em maiúsculas */
+  letter-spacing: 1px; /* Espaçamento entre letras para melhorar a leitura */
+  font-size: 0.9rem; /* Tamanho da fonte um pouco menor, para manter a proporção do selo */
+  text-decoration: none; /* Remove sublinhado (caso o elemento seja um link) */
+}
+
+/* Estilo do botão de envio do formulário de avaliação */
+button[type="submit"] {
+  background-color: #007bff; /* Cor azul padrão do Bootstrap */
+  color: white; /* Texto branco para contraste */
+  border: none; /* Remove a borda padrão */
+  padding: 10px 20px; /* Tamanho do botão */
+  border-radius: 5px; /* Bordas suavemente arredondadas */
+}
+
+/* Estilo aplicado quando o botão é focado ou passa o mouse por cima */
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Azul mais escuro para indicar interação */
+}
+
+/* Ajustes básicos de layout geral da página */
+body {
+  font-size: 1rem; /* Tamanho base da fonte */
+  background-color: #f8f9fa; /* Cor de fundo clara (cinza bem suave) */
+  color: #333; /* Cor do texto (quase preto) */
+  padding-top: 20px; /* Espaço no topo da página */
+}
+
+/* Margem superior aplicada ao formulário */
+form {
+  margin-top: 30px;
+}
+
+/* Estilo para campos de texto e área de comentário */
+input[type="text"], textarea {
+  padding: 10px; /* Espaçamento interno para melhor usabilidade */
+  border-radius: 5px; /* Cantos arredondados */
+  border: 1px solid #ccc; /* Borda cinza clara padrão */
+  width: 100%; /* Ocupa toda a largura disponível */
+  max-width: 500px; /* Limita a largura para melhor legibilidade */
+}
+
+/* Ajustes visuais para títulos */
+h1, h2 {
+  margin-bottom: 20px; /* Espaço abaixo dos títulos para separação do conteúdo */
+}

@@ -1,0 +1,18 @@
+{% extends 'website/base.html' %}
+{% load static %}
+
+{% block title %}Início - Achei Mais Barato{% endblock %}
+
+{% block content %}
+    <p class="lead">
+        Achei Mais Barato é um buscador inteligente que ajuda você a encontrar<br>
+        o menor preço em diversas lojas online.
+    </p>
+
+    <div class="search-box mt-4">
+        <form action="/pesquise" method="get" class="d-flex justify-content-center">
+            <input type="text" name="q" placeholder="Digite o que deseja buscar..." class="form-control w-50 me-2">
+            <button type="submit" class="btn btn-primary">Pesquisar</button>
+        </form>
+    </div>
+{% endblock %}
